@@ -3,7 +3,7 @@ import * as motion from "motion/react-client";
 function About() {
   return (
     <>
-      <div id="about" className="min-h-screen overflow-x-hidden bg-black">
+      <div id="about" className="min-h-screen overflow-x-hidden bg-black px-10">
         <motion.div
           initial={{
             opacity: 0,
@@ -22,9 +22,10 @@ function About() {
             once: true,
             amount: 0.5,
           }}
-          className="relative mb-8 mt-10 flex flex-col items-center gap-5 overflow-x-hidden text-center text-4xl uppercase font-zentry text-violet-700 font-black"
+          className="overflow-hidden relative mb-8 mt-10 flex flex-col items-center gap-5 overflow-x-hidden text-center text-4xl uppercase font-robert-regular text-violet-700 font-black"
         >
-          Hello I am Nirmal Chhetri
+          Hello I am Nirmal Chhetri <br />I am a webdeveloper and a life long
+          learner
         </motion.div>
         <motion.div
           initial={{
@@ -42,35 +43,17 @@ function About() {
           }}
           viewport={{
             once: true,
-            amount: 0.5,
+            amount: 0.8,
           }}
-          className="mt-5 text-center text-4xl uppercase leading-[0.8] md:text-[3rem] text-violet-700 font-zentry font-black"
+          className="flex justify-around items-center w-full  flex-col md:flex-row"
         >
-          I am a webdeveloper and a life long learner
-        </motion.div>
-        <motion.div
-          initial={{
-            opacity: 0,
-            scale: 0.9,
-          }}
-          whileInView={{
-            opacity: 1,
-            scale: 1,
-            transition: {
-              type: "spring", // Smooth transition
-              stiffness: 100, // Adjust stiffness
-              damping: 25,
-            },
-          }}
-          viewport={{
-            once: true,
-            amount: 0.5,
-          }}
-          className="flex justify-around items-center w-full"
-        >
-          <div className="font-circular-web text-2xl text-white ">
-            <p>I love developing webdevelopment it is very vast</p>
-            <p>I currently studie Bcsit in apex college Pokhara university</p>
+          <div className="font-zentry uppercase text-2xl text-white mt-5 font-bold ">
+            <p className="bg-blue-300 px-10">
+              I love developing webdevelopment it is very vast
+            </p>
+            <p className="bg-red-300 mt-6 px-4">
+              I studie Bcsit in apex college Pokhara university
+            </p>
           </div>
           <video
             src="/the.mp4"

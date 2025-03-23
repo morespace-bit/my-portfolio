@@ -12,6 +12,7 @@ function Hero() {
       >
         <video
           src="/videos/thevideo.webm"
+          autoPlay
           loop
           muted
           id="next-video"
