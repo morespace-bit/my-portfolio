@@ -7,7 +7,7 @@ function About() {
         <motion.div
           initial={{
             opacity: 0,
-            scale: 0.9,
+            scale: 0.8,
           }}
           whileInView={{
             opacity: 1,
@@ -30,7 +30,7 @@ function About() {
         <motion.div
           initial={{
             opacity: 0,
-            scale: 0.9,
+            scale: 0.8,
           }}
           whileInView={{
             opacity: 1,
@@ -43,15 +43,15 @@ function About() {
           }}
           viewport={{
             once: true,
-            amount: 0.8,
+            amount: 0.6,
           }}
           className="flex justify-around items-center w-full  flex-col md:flex-row"
         >
           <div className="font-zentry uppercase text-2xl text-white mt-5 font-bold ">
-            <p className="bg-blue-300 px-10">
-              I love developing webdevelopment it is very vast
+            <p className="bg-blue-300 px-10 py-5">
+              I love webdevelopment it is very vast
             </p>
-            <p className="bg-red-300 mt-6 px-4">
+            <p className="bg-red-300 mt-6 px-4 py-5">
               I studie Bcsit in apex college Pokhara university
             </p>
           </div>
