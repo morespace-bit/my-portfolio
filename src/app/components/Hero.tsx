@@ -12,7 +12,6 @@ function Hero() {
       >
         <video
           src="/videos/thevideo.webm"
-          autoPlay
           loop
           muted
           id="next-video"
@@ -25,7 +24,7 @@ function Hero() {
             duration: 3, // Transition duration in seconds
             ease: "easeInOut", // Smooth easing effect
           }}
-          className="special-font hero-heading absolute bottom-5 righ-5 z-40 text-violet-700 lg"
+          className="uppercase font-zentry font-black absolute z-40 text-violet-700 bottom-5 right-10  text-5xl md:text-9xl "
         >
           Flies
         </motion.div>
@@ -39,7 +38,7 @@ function Hero() {
           className=" absolute left-0 top-0 size-full z-40"
         >
           <div className="mt-24 px-5 sm:px-10">
-            <h1 className="special-font hero-heading text-violet-600 z-40 font-bold">
+            <h1 className="uppercase font-zentry font-black    z-40 text-violet-700 text-5xl md:text-9xl ">
               {" "}
               Time
             </h1>

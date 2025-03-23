@@ -11,7 +11,7 @@ const Button: React.FC<ButtonProps> = ({ id, title, leftIcon }) => {
   return (
     <motion.button
       id={id}
-      className="flex items-center gap-2 px-2 py-2 bg-blue-500 text-white rounded cursor-pointer mx-10 mt-5 hover:scale-110 active:scale-95 ease-in-out"
+      className="flex items-center gap-2 px-2 py-2 bg-blue-500 text-white rounded cursor-pointer mx-10 mt-5 hover:scale-110 active:scale-95 transition duration-75 ease-in-out"
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{
