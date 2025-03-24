@@ -4,48 +4,47 @@ import Image from "next/image";
 function Sticky() {
   const content = [
     {
-      title: "Collaborative Editing",
+      title: "To do app with react",
       description:
-        "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+        "This is one of the fist project that I did with react. Very basic app with basic functionalities the project is live at github",
       content: (
-        <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-          Collaborative Editing
+        <div className="flex flex-col gap-5 h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
+          <Image src="/todo.jpeg" alt="todoimg" width={300} height={300} />
+          <div className="flex justify-around items-center">
+            <button className="bg-black rounded-full px-10 py-2 hover:bg-red-400 hover:scale-125 transition-all ease-in-out duration-75">
+              Github
+            </button>
+          </div>
         </div>
       ),
     },
     {
-      title: "Real time changes",
+      title: "Meme generator",
       description:
-        "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+        "This is my second project using react. In this react app I learned api fetching and learned api fetching. Also learned the use effect hook",
       content: (
-        <div className="flex min-h-screen w-full items-center justify-center text-white">
-          <Image
-            src="/img/about.webp"
-            width={300}
-            height={300}
-            className="h-full w-full object-cover"
-            alt="linear board demo"
-          />
+        <div className="flex flex-col gap-5 h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
+          <Image src="/meme.jpeg" alt="todoimg" width={200} height={200} />
+          <div className="flex justify-around items-center">
+            <button className="bg-red-700 rounded-full px-10 py-2 hover:bg-red-400 hover:scale-125 transition-all ease-in-out duration-75">
+              Github
+            </button>
+          </div>
         </div>
       ),
     },
     {
-      title: "Version control",
+      title: "Movie web application",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "Movie web application build using the movie database. I larned tailwind css while making this project.",
       content: (
-        <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] text-white">
-          Version control
-        </div>
-      ),
-    },
-    {
-      title: "Running out of content",
-      description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-      content: (
-        <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-          Running out of content
+        <div className="flex flex-col gap-5 h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
+          <Image src="/movie.jpeg" alt="todoimg" width={300} height={300} />
+          <div className="flex justify-around items-center">
+            <button className="bg-black rounded-full px-10 py-2 hover:bg-red-400 hover:scale-125 transition-all ease-in-out duration-75">
+              Github
+            </button>
+          </div>
         </div>
       ),
     },
